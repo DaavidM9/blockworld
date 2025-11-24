@@ -43,17 +43,17 @@ El proyecto incluye:
        WrongMaterialException.java
 
     test/model
-	Block_PreP2Test.java
-	BlockWorld_PreP2Test.java
-	Inventory_PreP2Test.java
-	ItemStack_PreP2Test.java
-	Location_PreP1Test.java
-	Location_PreP2Test.java
-	Material_PreP2Test.java
-	Player_PreP2Test.java
-	World_PreP1Test.java
-	World_PreP2Test.java
-
+		Block_PreP2Test.java
+		BlockWorld_PreP2Test.java
+		Inventory_PreP2Test.java
+		ItemStack_PreP2Test.java
+		Location_PreP1Test.java
+		Location_PreP2Test.java
+		Material_PreP2Test.java
+		Player_PreP2Test.java
+		World_PreP1Test.java
+		World_PreP2Test.java
+	
 
 
 
@@ -82,7 +82,7 @@ La clase `Player` gestiona:
 
 ------------------------------------------------------------------------
 
-## 🎒 Inventario e Ítems
+## Inventario e Ítems
 
 El sistema de inventario (`Inventory`):
 
@@ -127,5 +127,10 @@ Incluye un conjunto robusto de excepciones para manejar:
 
 ## Tests
 
-Los tests verifican de manera integral el funcionamiento del modelo de BlockWorld, comprobando la correcta gestión de mundos, jugadores, posiciones, bloques, materiales, inventarios e ítems. Evalúan tanto el comportamiento normal como los casos límite, asegurando movimientos válidos, uso adecuado de objetos, coherencia en la generación del mundo y el inventario, así como el manejo correcto de excepciones y condiciones inválidas. En conjunto, garantizan la robustez y coherencia del sistema.
+Los tests verifican de manera integral el funcionamiento del modelo de BlockWorld, 
+comprobando la correcta gestión de mundos, jugadores, posiciones, bloques, materiales, 
+inventarios e ítems. Evalúan tanto el comportamiento normal como los casos límite, 
+asegurando movimientos válidos, uso adecuado de objetos, coherencia en la generación 
+del mundo y el inventario, así como el manejo correcto de excepciones y condiciones 
+inválidas. En conjunto, garantizan la robustez y coherencia del sistema.
 
